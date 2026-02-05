@@ -1,8 +1,4 @@
-/* ================================
-   Cursor Landing Page - Styles
-   ================================ */
 
-/* CSS Variables - Color Palette */
 :root {
     --bg-primary: #0a0a0a;
     --bg-secondary: #111111;
@@ -25,7 +21,7 @@
     --diff-removed: #f85149;
 }
 
-/* Reset and Base Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -54,9 +50,7 @@ ul {
     list-style: none;
 }
 
-/* ================================
-   Navigation Bar
-   ================================ */
+
 .navbar {
     position: fixed;
     top: 0;
@@ -146,9 +140,7 @@ ul {
     opacity: 0.9;
 }
 
-/* ================================
-   Hero Section
-   ================================ */
+
 .hero {
     padding: 160px 24px 80px;
     max-width: 1200px;
@@ -406,9 +398,7 @@ ul {
     color: var(--code-attr);
 }
 
-/* ================================
-   Trusted By Section
-   ================================ */
+
 .trusted-by {
     padding: 80px 24px;
     text-align: center;
@@ -447,9 +437,7 @@ ul {
     font-style: italic;
 }
 
-/* ================================
-   Feature Sections
-   ================================ */
+
 .feature-section {
     padding: 100px 24px;
     max-width: 1200px;
@@ -632,7 +620,7 @@ ul {
     margin-top: 16px;
 }
 
-/* Tab Screenshot */
+
 .tab-content {
     min-height: 350px;
 }
@@ -649,7 +637,7 @@ ul {
     color: var(--text-secondary);
 }
 
-/* Integrations Preview */
+
 .integrations-preview {
     display: flex;
     gap: 20px;
@@ -909,9 +897,6 @@ ul {
     border: 1px solid var(--border-color);
 }
 
-/* ================================
-   Testimonials Section
-   ================================ */
 .testimonials {
     padding: 100px 24px;
     max-width: 1200px;
@@ -976,9 +961,7 @@ ul {
     color: var(--text-muted);
 }
 
-/* ================================
-   Feature Cards Section
-   ================================ */
+
 .feature-cards {
     padding: 100px 24px;
     max-width: 1200px;
@@ -1132,9 +1115,7 @@ ul {
     width: 80%;
 }
 
-/* ================================
-   Changelog Section
-   ================================ */
+
 .changelog {
     padding: 100px 24px;
     max-width: 1200px;
@@ -1192,9 +1173,7 @@ ul {
     text-decoration: underline;
 }
 
-/* ================================
-   About Section
-   ================================ */
+
 .about {
     padding: 100px 24px;
     max-width: 1200px;
@@ -1239,9 +1218,7 @@ ul {
     background: linear-gradient(135deg, var(--bg-tertiary) 0%, var(--bg-card) 100%);
 }
 
-/* ================================
-   Highlights Section
-   ================================ */
+
 .highlights {
     padding: 60px 24px 100px;
     max-width: 1200px;
@@ -1305,9 +1282,6 @@ ul {
     text-decoration: underline;
 }
 
-/* ================================
-   Final CTA Section
-   ================================ */
 .final-cta {
     padding: 120px 24px;
     text-align: center;
@@ -1338,9 +1312,7 @@ ul {
     opacity: 0.9;
 }
 
-/* ================================
-   Footer
-   ================================ */
+
 .footer {
     padding: 80px 24px 40px;
     border-top: 1px solid var(--border-color);

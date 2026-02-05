@@ -4,7 +4,7 @@ A pixel-perfect recreation of the [Cursor](https://cursor.com) landing page usin
 
 ## 📸 Preview
 
-![Landing Page Preview](screenshots/preview.png)
+![Landing Page Preview](screenshots/image.png)
 
 ## ✅ Sections Recreated
 
@@ -61,7 +61,7 @@ All 11 sections from the original design have been implemented:
 ## 📁 Project Structure
 
 ```
-cursor-landing-page/
+Cursor/
 ├── index.html      # Main HTML file with all sections
 ├── styles.css      # Complete CSS styling
 ├── README.md       # Project documentation
@@ -128,4 +128,4 @@ This project is for educational purposes only. The original design belongs to [C
 
 ## 👤 Author
 
-Created as part of a frontend development assignment.
+Created as part of a frontend development assignment in Cohort 2026.
