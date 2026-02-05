@@ -1,0 +1,757 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cursor - The AI Code Editor</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-left">
+          <a href="#" class="logo">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect width="24" height="24" rx="6" fill="white" />
+              <path d="M7 7L17 12L7 17V7Z" fill="#0A0A0A" />
+            </svg>
+            <span>Cursor</span>
+          </a>
+          <ul class="nav-links">
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Enterprise</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Resources</a></li>
+          </ul>
+        </div>
+        <div class="nav-right">
+          <a href="#" class="nav-signin">Sign in</a>
+          <a href="#" class="nav-download">Download</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            Built to make you extraordinarily productive,<br />Cursor is the
+            best way to code with AI.
+          </h1>
+          <a href="#" class="hero-cta">
+            Download for macOS
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8 12L8 4M8 12L4 8M8 12L12 8"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </a>
+        </div>
+        <div class="hero-image">
+          <div class="hero-screenshot">
+            <div class="screenshot-header">
+              <div class="window-controls">
+                <span class="control red"></span>
+                <span class="control yellow"></span>
+                <span class="control green"></span>
+              </div>
+              <span class="window-title">Cursor</span>
+            </div>
+            <div class="screenshot-content">
+              <div class="sidebar">
+                <div class="sidebar-item active">IN PROGRESS 3</div>
+                <div class="task-item">
+                  <span class="task-icon">✦</span>
+                  <span class="task-text">Enterprise Order Management...</span>
+                  <span class="task-status">Generating</span>
+                </div>
+                <div class="task-item">
+                  <span class="task-icon">✦</span>
+                  <span class="task-text">Analyze Tab vs Agent Usage...</span>
+                  <span class="task-status">Generating</span>
+                </div>
+                <div class="task-item">
+                  <span class="task-icon">✦</span>
+                  <span class="task-text">Fix PR Comments Fetching I...</span>
+                  <span class="task-status">Generating</span>
+                </div>
+              </div>
+              <div class="main-panel">
+                <div class="panel-header">PyTorch MNIST Experiments</div>
+                <div class="chat-message">
+                  Add mixed precision training, learning rate scheduling, and
+                  proper validation. Also create an experiment config system so
+                  I can easily run different hyperparameter settings.
+                </div>
+                <div class="file-changed">
+                  <span class="file-icon">📄</span>
+                  <span class="file-name">train_model.py</span>
+                  <span class="file-diff"
+                    ><span class="added">+156</span>
+                    <span class="removed">-34</span></span
+                  >
+                </div>
+                <p class="panel-text">
+                  Now let me update the evaluation module to save results and
+                  generate a detailed report:
+                </p>
+              </div>
+              <div class="code-panel">
+                <div class="code-tabs">
+                  <span class="tab active">train_model.py</span>
+                  <span class="tab">run_experiment.py</span>
+                </div>
+                <div class="code-content">
+                  <pre><code><span class="keyword">import</span> torch
+<span class="keyword">import</span> torch.nn <span class="keyword">as</span> nn
+<span class="keyword">from</span> torch.utils.data <span class="keyword">import</span> Data...
+<span class="keyword">from</span> torch.utils.data <span class="keyword">import</span> Data...
+<span class="keyword">from</span> torchvision <span class="keyword">import</span> datasets
+<span class="keyword">from</span> torchvision <span class="keyword">import</span> datasets,...
+<span class="keyword">from</span> tqdm <span class="keyword">import</span> tqdm
+<span class="keyword">import</span> yaml</code></pre>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trusted By Section -->
+    <section class="trusted-by">
+      <p class="trusted-text">
+        Trusted every day by teams that build world-class software
+      </p>
+      <div class="logos-container">
+        <div class="logo-item">
+          <span class="company-logo stripe">stripe</span>
+        </div>
+        <div class="logo-item">
+          <span class="company-logo openai">OpenAI</span>
+        </div>
+        <div class="logo-item">
+          <span class="company-logo linear">◆ Linear</span>
+        </div>
+        <div class="logo-item">
+          <span class="company-logo datadog">🐕 DATADOG</span>
+        </div>
+        <div class="logo-item">
+          <span class="company-logo nvidia">◉ NVIDIA</span>
+        </div>
+        <div class="logo-item">
+          <span class="company-logo figma">Figma</span>
+        </div>
+        <div class="logo-item">
+          <span class="company-logo ramp">ramp ↗</span>
+        </div>
+        <div class="logo-item">
+          <span class="company-logo adobe">Adobe</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feature Section 1 - Agents -->
+    <section class="feature-section">
+      <div class="feature-container">
+        <div class="feature-text">
+          <h2 class="feature-title">Agents turn ideas into code</h2>
+          <p class="feature-description">
+            Accelerate development by handing off tasks to Cursor, while you
+            focus on making decisions.
+          </p>
+          <a href="#" class="feature-link">Learn about agentic development →</a>
+        </div>
+        <div class="feature-image">
+          <div class="feature-screenshot agent-screenshot">
+            <div class="screenshot-header small">
+              <div class="window-controls">
+                <span class="control red"></span>
+                <span class="control yellow"></span>
+                <span class="control green"></span>
+              </div>
+              <span class="window-title">Cursor</span>
+            </div>
+            <div class="agent-content">
+              <div class="agent-panel">
+                <div class="agent-header">Plan Mission Control</div>
+                <div class="agent-message">
+                  let's build a mission control interface, similar to the
+                  expose-style window manager on macOS
+                </div>
+                <div class="agent-status">
+                  <p>Thought 4s</p>
+                  <p>Read AppManager.tsx</p>
+                  <p>Searched expose patterns</p>
+                </div>
+                <div class="agent-file">
+                  <span class="file-icon">📄</span>
+                  <span>feature-prd.md</span>
+                  <span class="added">+68</span>
+                </div>
+                <p class="agent-text">
+                  Drafted implementation steps in feature-prd.md. A few quick
+                  questions before I start building:
+                </p>
+                <div class="agent-questions">
+                  <p class="question-label">Questions</p>
+                  <p class="question-text">
+                    How should Mission Control be triggered?
+                  </p>
+                  <ol class="question-options">
+                    <li>Gesture (swipe up with 3 fingers)</li>
+                    <li>Keyboard shortcut (e.g., F3 or Cmd+F3)</li>
+                    <li>Both keyboard and button</li>
+                  </ol>
+                </div>
+              </div>
+              <div class="prd-panel">
+                <div class="prd-header">Plans > feature-prd.md</div>
+                <h3 class="prd-title">Mission Control Interface</h3>
+                <p class="prd-text">
+                  A grid view of all open windows as scaled previews, allowing
+                  quick selection to bring any window to front.
+                </p>
+                <h4 class="prd-subtitle">Trigger</h4>
+                <p class="prd-text">
+                  Menu item in MenuBar.tsx (View > Mission Control), hotkey F3,
+                  or a tap desktop.
+                </p>
+                <h4 class="prd-subtitle">View Behavior</h4>
+                <p class="prd-text">
+                  Overlay existing windows into a grid of live previews with
+                  spring-based layout animations and shared element transitions.
+                </p>
+                <p class="prd-tasks">3 Tasks</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feature Section 2 - Tab Autocomplete -->
+    <section class="feature-section alt">
+      <div class="feature-container reverse">
+        <div class="feature-text">
+          <h2 class="feature-title">Magically accurate autocomplete</h2>
+          <p class="feature-description">
+            Our specialized Tab model predicts your next action with striking
+            speed and precision.
+          </p>
+          <a href="#" class="feature-link">Learn about Tab →</a>
+        </div>
+        <div class="feature-image">
+          <div class="feature-screenshot tab-screenshot">
+            <div class="screenshot-header small">
+              <div class="window-controls">
+                <span class="control red"></span>
+                <span class="control yellow"></span>
+                <span class="control green"></span>
+              </div>
+              <span class="window-title">Cursor</span>
+            </div>
+            <div class="tab-content">
+              <div class="code-tabs">
+                <span class="tab active">Dashboard.tsx</span>
+                <span class="tab">SupportChat.tsx</span>
+              </div>
+              <div class="tab-code">
+                <pre><code><span class="string">"use client"</span>;
+
+<span class="keyword">import</span> React, { useState } <span class="keyword">from</span> <span class="string">"react"</span>;
+<span class="keyword">import</span> Navigation <span class="keyword">from</span> <span class="string">"./Navigation"</span>;
+<span class="keyword">import</span> SupportChat <span class="keyword">from</span> <span class="string">"./SupportChat"</span>;
+
+<span class="keyword">export default function</span> <span class="function">Dashboard</span>() {
+    <span class="keyword">const</span> [activeTab, setActiveTab] = <span class="function">useState</span>(<span class="string">"support"</span>);
+
+    <span class="keyword">return</span> (
+        &lt;<span class="tag">div</span> <span class="attr">className</span>=<span class="string">"flex h-[600px] border rounded-lg overflow-hidden"</span>&gt;
+            &lt;<span class="tag">div</span> <span class="attr">className</span>=<span class="string">"w-64 border-r"</span>&gt;
+                &lt;<span class="tag">Navigation</span> <span class="attr">activeTab</span>={activeTab} <span class="attr">onSelectTab</span>={setActiveTab} /&gt;
+            &lt;/<span class="tag">div</span>&gt;
+            &lt;<span class="tag">div</span> <span class="attr">className</span>=<span class="string">"w-80 border-l"</span>&gt;
+                &lt;<span class="tag">SupportChat</span> /&gt;
+            &lt;/<span class="tag">div</span>&gt;
+        &lt;/<span class="tag">div</span>&gt;
+    );
+}</code></pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feature Section 3 - Integrations -->
+    <section class="feature-section">
+      <div class="feature-container">
+        <div class="feature-text">
+          <h2 class="feature-title">In every tool, at every step</h2>
+          <p class="feature-description">
+            Cursor reviews your PRs in GitHub, collaborates in Slack, and runs
+            in your terminal.
+          </p>
+          <a href="#" class="feature-link">Learn about Cursor's surfaces →</a>
+        </div>
+        <div class="feature-image">
+          <div class="integrations-preview">
+            <div class="slack-card">
+              <div class="slack-header">
+                <span class="slack-icon">💬</span>
+                <span>Slack</span>
+              </div>
+              <div class="slack-channel">#feature-realtime-sync</div>
+              <div class="slack-members">8 members</div>
+              <div class="slack-message">
+                <div class="message-avatar">S</div>
+                <div class="message-content">
+                  <span class="message-author">swhitmore</span>
+                  <span class="message-time">5m</span>
+                  <p>
+                    i wanna be able to go to cursor.com/changelog#1.0 to see 1.0
+                    changelog
+                  </p>
+                </div>
+              </div>
+              <div class="slack-message">
+                <div class="message-avatar">E</div>
+                <div class="message-content">
+                  <span class="message-author">eric</span>
+                  <span class="message-time">4m</span>
+                  <p>checks out</p>
+                </div>
+              </div>
+              <div class="slack-message cursor-bot">
+                <div class="message-avatar cursor">⬤</div>
+                <div class="message-content">
+                  <span class="message-author"
+                    >Cursor <span class="bot-tag">APP</span></span
+                  >
+                  <span class="message-time">2m</span>
+                  <p>
+                    I added direct hash navigation with smooth scroll and URL
+                    persistence. The solution handles both initial page load and
+                    dynamic navigation, while maintaining proper anchor
+                    constraints acr...
+                  </p>
+                  <a href="#" class="view-pr-btn">View PR</a>
+                </div>
+              </div>
+            </div>
+            <div class="github-card">
+              <div class="github-header">GitHub Pull Request</div>
+              <div class="github-comment">
+                <div class="comment-avatar">L</div>
+                <div class="comment-content">
+                  <span class="comment-author">leerob</span>
+                  <span class="comment-time">5m ago</span>
+                  <p>@cursor can you review this PR?</p>
+                </div>
+              </div>
+              <div class="github-review">
+                <div class="review-avatar cursor">⬤</div>
+                <div class="review-content">
+                  <span class="review-author"
+                    >cursor <span class="bot-tag">bot</span></span
+                  >
+                  <span class="review-time">reviewed 3m ago</span>
+                  <div class="code-snippet">
+                    <div class="snippet-header">
+                      src/vs/workbench/composer/browser/components/ComposerUnifiedDro...
+                    </div>
+                    <div class="snippet-line removed">
+                      3292 - {selectedMode[].keybinding}
+                    </div>
+                    <div class="snippet-line added">
+                      3293 + {composerOpenModeToggleKeybinding()}
+                    </div>
+                  </div>
+                  <div class="bug-note">
+                    <strong
+                      >Bug: Function Returns Object Instead of String (Logic
+                      bug)</strong
+                    >
+                    <p>
+                      The composerOpenModeToggleKeybinding is a function that
+                      needs to be called to get its value. This makes the
+                      condition always truthy.
+                    </p>
+                  </div>
+                  <div class="fix-buttons">
+                    <button class="fix-btn">⬤ Fix in Cursor</button>
+                    <button class="fix-btn secondary">Fix in Web</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+      <h2 class="section-title">The new way to build software.</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <p class="testimonial-quote">
+            "It was night and day from one batch to another, adoption went from
+            single digits to over 80%. It just spread like wildfire, all the
+            best builders were using Cursor."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar diana"></div>
+            <div class="author-info">
+              <span class="author-name">Diana Hu</span>
+              <span class="author-role">General Partner, Y Combinator</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p class="testimonial-quote">
+            "My favorite enterprise AI service is Cursor. Every one of our
+            engineers, some 40,000, are now assisted by AI and our productivity
+            has gone up incredibly."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar jensen"></div>
+            <div class="author-info">
+              <span class="author-name">Jensen Huang</span>
+              <span class="author-role">President & CEO, NVIDIA</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p class="testimonial-quote">
+            "The best LLM applications have an autonomy slider: you control how
+            much independence to give the AI. In Cursor, you can do Tab
+            completion, Cmd+K for targeted edits, or you can let it rip with the
+            full autonomy agentic version."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar andrej"></div>
+            <div class="author-info">
+              <span class="author-name">Andrej Karpathy</span>
+              <span class="author-role">CEO, Eureka Labs</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p class="testimonial-quote">
+            "Cursor quickly grew from hundreds to thousands of extremely
+            enthusiastic Stripe employees. We spend more on R&D and software
+            creation than any other undertaking, and there's significant
+            economic outcomes when making that process more efficient."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar patrick"></div>
+            <div class="author-info">
+              <span class="author-name">Patrick Collison</span>
+              <span class="author-role">Co-Founder & CEO, Stripe</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p class="testimonial-quote">
+            "The most useful AI tool that I currently pay for, hands down, is
+            Cursor. It's fast, autocompletes when and where you need it to,
+            handles brackets properly, sensible keyboard shortcuts,
+            bring-your-own-model... everything is well put together."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar shadcn"></div>
+            <div class="author-info">
+              <span class="author-name">shadcn</span>
+              <span class="author-role">Creator of shadcn/ui</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p class="testimonial-quote">
+            "It's definitely becoming more fun to be a programmer. We are at the
+            1% of what's possible, and it's in interactive experiences like
+            Cursor where models like GPT-5 shine brightest."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar greg"></div>
+            <div class="author-info">
+              <span class="author-name">Greg Brockman</span>
+              <span class="author-role">President, OpenAI</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feature Cards Section -->
+    <section class="feature-cards">
+      <h2 class="section-title">Stay on the frontier</h2>
+      <div class="cards-grid">
+        <div class="card">
+          <h3 class="card-title">Use the best model for every task</h3>
+          <p class="card-description">
+            Choose between every cutting-edge model from OpenAI, Anthropic,
+            Gemini, xAI, and Cursor.
+          </p>
+          <a href="#" class="card-link">Explore models →</a>
+          <div class="card-preview model-preview">
+            <div class="model-input">
+              <span>Ask Cursor to plan or build anything</span>
+              <div class="model-selector">
+                <span class="model-badge">⊙ Agent</span>
+                <span class="model-dropdown">Composer 1 ▾</span>
+              </div>
+            </div>
+            <div class="model-list">
+              <div class="model-item">
+                Auto <span class="suggested">Suggested</span>
+              </div>
+              <div class="model-item selected">Composer 1 ✓</div>
+              <div class="model-item">GPT-5.2</div>
+              <div class="model-item">Opus 4.5</div>
+              <div class="model-item">Gemini 3 Pro</div>
+              <div class="model-item">Grok Code</div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <h3 class="card-title">Complete codebase understanding</h3>
+          <p class="card-description">
+            Cursor learns how your codebase works, no matter the scale or
+            complexity.
+          </p>
+          <a href="#" class="card-link">Learn about codebase indexing →</a>
+          <div class="card-preview index-preview">
+            <div class="search-box">
+              Where are these menu label colors defined?
+            </div>
+            <div class="search-results">
+              <p class="result-action">
+                Grepped <span class="highlight">Choose a model</span>
+              </p>
+              <p class="result-action">Searching</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <h3 class="card-title">Develop enduring software</h3>
+          <p class="card-description">
+            Trusted by over half of the Fortune 500 to accelerate development,
+            securely and at scale.
+          </p>
+          <a href="#" class="card-link">Explore enterprise →</a>
+          <div class="card-preview enterprise-preview">
+            <div class="terminal-lines">
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line short"></div>
+              <div class="line"></div>
+              <div class="line medium"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Changelog Section -->
+    <section class="changelog">
+      <h2 class="section-title">Changelog</h2>
+      <div class="changelog-grid">
+        <div class="changelog-item">
+          <div class="changelog-meta">
+            <span class="version-badge">2.4</span>
+            <span class="changelog-date">Jan 22, 2026</span>
+          </div>
+          <h3 class="changelog-title">
+            Subagents, Skills, and Image Generation
+          </h3>
+        </div>
+        <div class="changelog-item">
+          <div class="changelog-meta">
+            <span class="changelog-date">Jan 16, 2026</span>
+          </div>
+          <h3 class="changelog-title">CLI Agent Modes and Cloud Handoff</h3>
+        </div>
+        <div class="changelog-item">
+          <div class="changelog-meta">
+            <span class="changelog-date">Jan 8, 2026</span>
+          </div>
+          <h3 class="changelog-title">
+            New CLI Features and Improved CLI Performance
+          </h3>
+        </div>
+        <div class="changelog-item">
+          <div class="changelog-meta">
+            <span class="version-badge">2.3</span>
+            <span class="changelog-date">Dec 22, 2025</span>
+          </div>
+          <h3 class="changelog-title">
+            Layout Customization and Stability Improvements
+          </h3>
+        </div>
+      </div>
+      <a href="#" class="changelog-link">See what's new in Cursor →</a>
+    </section>
+
+    <!-- About/Team Section -->
+    <section class="about">
+      <div class="about-container">
+        <div class="about-content">
+          <p class="about-text">
+            Cursor is an applied research team focused on building the future of
+            software development.
+          </p>
+          <a href="#" class="about-link">Join us →</a>
+        </div>
+        <div class="about-image">
+          <div class="about-placeholder"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recent Highlights Section -->
+    <section class="highlights">
+      <h2 class="section-title-left">Recent highlights</h2>
+      <div class="highlights-list">
+        <div class="highlight-item">
+          <h3 class="highlight-title">Introducing Cursor 2.0 and Composer</h3>
+          <p class="highlight-description">
+            A new interface and our first coding model, both purpose-built for
+            working with agents.
+          </p>
+          <div class="highlight-meta">
+            <span class="highlight-tag">Product</span>
+            <span class="highlight-date">Oct 29, 2025</span>
+          </div>
+        </div>
+        <div class="highlight-item">
+          <h3 class="highlight-title">Improving Cursor Tab with online RL</h3>
+          <p class="highlight-description">
+            Our new Tab model makes 21% fewer suggestions while having 28%
+            higher accept rate.
+          </p>
+          <div class="highlight-meta">
+            <span class="highlight-tag">Research</span>
+            <span class="highlight-date">Aug 29, 2025</span>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="highlights-link">View more posts →</a>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="final-cta">
+      <h2 class="cta-title">Try Cursor now.</h2>
+      <a href="#" class="cta-button">
+        Download for macOS
+        <svg
+          width="16"
+          height="16"
+          viewBox="0 0 16 16"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M8 12L8 4M8 12L4 8M8 12L12 8"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-column">
+          <h4 class="footer-heading">Product</h4>
+          <ul class="footer-links">
+            <li><a href="#">Agents</a></li>
+            <li><a href="#">Enterprise</a></li>
+            <li><a href="#">Code Review</a></li>
+            <li><a href="#">Tab</a></li>
+            <li><a href="#">CLI</a></li>
+            <li><a href="#">Cloud Agents</a></li>
+            <li><a href="#">Pricing</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4 class="footer-heading">Resources</h4>
+          <ul class="footer-links">
+            <li><a href="#">Download</a></li>
+            <li><a href="#">Changelog</a></li>
+            <li><a href="#">Docs</a></li>
+            <li><a href="#">Forum</a></li>
+            <li><a href="#">Status</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4 class="footer-heading">Company</h4>
+          <ul class="footer-links">
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">Students</a></li>
+            <li><a href="#">Brand</a></li>
+            <li><a href="#">Anysphere</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4 class="footer-heading">Legal</h4>
+          <ul class="footer-links">
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Data Use</a></li>
+            <li><a href="#">Security</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4 class="footer-heading">Connect</h4>
+          <ul class="footer-links">
+            <li><a href="#">X</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">YouTube</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="copyright">© 2026 Anysphere, Inc.</p>
+        <p class="certification">◎ SOC 2 Certified</p>
+        <div class="footer-controls">
+          <button class="theme-btn">◐</button>
+          <button class="theme-btn">☀</button>
+          <button class="theme-btn">☾</button>
+          <button class="lang-btn">⊕ English ▾</button>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
